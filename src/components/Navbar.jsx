@@ -3,7 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 import { BiSolidLike } from 'react-icons/bi'
 import { ImSwitch, ImUsers } from 'react-icons/im';
 import { MdHistory } from "react-icons/md";
-import { FaGratipay } from "react-icons/fa";
+// import { FaGratipay } from "react-icons/fa";
 import { FaFire } from "react-icons/fa";
 import ToggleMode from './ToggleMode';
 import { Link } from 'react-router-dom';
@@ -68,10 +68,10 @@ const Navbar = ({ showNav, setShowNav }) => {
                         </button>
 
                 }
-                <Link to='/donate' className='nav-link' title='MoMo'>
+                {/*<Link to='/donate' className='nav-link' title='MoMo'>
                     <FaGratipay className='text-xl md:text-lg 2xl:text-2xl' />
                     <span className='font-light text-base sm:text-xs' >MoMo</span>
-                </Link>
+            </Link>*/}
                 {/* <a href='https://www.ayushverma.live/' rel="noreferrer" target='_blank' className='nav-link' title='Momo'>
                     <BiCodeAlt className='text-2xl md:text-lg 2xl:text-2xl' />
                     <span className='font-light text-base sm:text-xs' >Ayush</span>
